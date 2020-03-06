@@ -1,0 +1,11 @@
+@mixin display-flex($direction, $justify, $align) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin text-frame {
+  border: 10px solid black;
+  border-radius: 20px;
+}

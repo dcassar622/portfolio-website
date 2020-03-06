@@ -1,0 +1,36 @@
+@import "./mixins.scss";
+
+/* ---------- ABOUT PAGE ---------- */
+
+/* ---------- info section ---------- */
+
+#about-page-container {
+  @include display-flex(column, flex-start, center);
+  padding-top: 50px;
+  right: 10%;
+}
+
+#info-container {
+  width: 70%;
+  @include display-flex(column, flex-start, flex-start);
+}
+
+#profile-picture {
+  max-height: 300px;
+  max-width: 300px;
+  margin-top: 30%;
+}
+
+/* ---------- knowledge section ---------- */
+
+#knowledge-container {
+  position: absolute;
+  top: 50%;
+  left: 75%;
+}
+
+#knowledge-section {
+  min-width: calc(100vw / 3);
+  padding: 2rem;
+  @include text-frame;
+}

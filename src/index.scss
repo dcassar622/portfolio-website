@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Anonymous+Pro&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  /* ---------- GLOBAL VARIABLES ---------- */
+  --sidebar-background: rgba(90, 81, 81, 0.301);
+}
+
+.App {
+  background-image: url("./images/background-main.gif");
+  background-size: cover;
+  background-position: center center;
+}
+
+body {
+  margin: 0;
+  font-family: "Anonymous Pro", monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* ---------- ANIMATIONS ---------- */
+
+.slide-in-page {
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.pulsate {
+  animation: pulsate 3s ease-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulsate {
+  0% {
+    color: teal;
+    transform: scale(2);
+  }
+  50% {
+    color: rgb(133, 87, 87);
+    transform: scale(4);
+  }
+  100% {
+    color: teal;
+    transform: scale(2);
+  }
+}
+
+/* ---------- GENERAL ---------- */
+
+.page-container {
+  position: relative;
+  height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.selected {
+  color: teal;
+}
+
+.underline {
+  text-decoration: underline;
+}
