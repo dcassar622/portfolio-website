@@ -8,4 +8,7 @@
 @mixin text-frame {
   border: 10px solid black;
   border-radius: 20px;
+  padding: 2rem;
+  font-size: 1.1rem;
+  background: rgba(164, 182, 182, 0.514);
 }

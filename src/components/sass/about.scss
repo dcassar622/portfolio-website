@@ -2,35 +2,62 @@
 
 /* ---------- ABOUT PAGE ---------- */
 
-/* ---------- info section ---------- */
-
 #about-page-container {
+  width: 100%;
   @include display-flex(column, flex-start, center);
-  padding-top: 50px;
-  right: 10%;
+  padding-top: 20px;
+  line-height: 1.3;
 }
 
-#info-container {
-  width: 70%;
-  @include display-flex(column, flex-start, flex-start);
+#what-section {
+  width: 90%;
+}
+
+/* ---------- info section ---------- */
+
+#bio-container {
+  width: 90%;
+  padding: 1rem;
+}
+
+#image-section {
+  margin-left: 65%;
 }
 
 #profile-picture {
-  max-height: 300px;
-  max-width: 300px;
-  margin-top: 30%;
+  float: right;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  max-height: 400px;
+  max-width: 400px;
+  border-radius: 30px;
 }
 
 /* ---------- knowledge section ---------- */
 
-#knowledge-container {
-  position: absolute;
-  top: 50%;
-  left: 75%;
+#knowledge-inner-list {
+  padding-left: 1.5rem;
 }
 
 #knowledge-section {
-  min-width: calc(100vw / 3);
-  padding: 2rem;
+  position: absolute;
   @include text-frame;
+  width: 35%;
+  margin-top: 5%;
+  margin-left: 3%;
+}
+
+#learn-section {
+  @include text-frame;
+  width: 45%;
+  margin-left: 50%;
+  margin-top: 25%;
+}
+
+#learning-section {
+  width: 100%;
+}
+
+#relearning-container {
+  padding-top: 2rem;
 }

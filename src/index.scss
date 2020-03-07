@@ -29,7 +29,7 @@ code {
 
 /* ---------- ANIMATIONS ---------- */
 
-.slide-in-page {
+.slide-in {
   animation-duration: 1s;
   animation-name: slidein;
 }
@@ -70,7 +70,7 @@ code {
 
 .page-container {
   position: relative;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 a {
