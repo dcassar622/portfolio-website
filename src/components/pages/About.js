@@ -4,6 +4,7 @@ import Bio from "../elements/Bio";
 import Knowledge from "../elements/Knowledge";
 import Learning from "../elements/Learning";
 import Relearning from "../elements/Relearning";
+import Disclaimer from "../elements/Disclaimer";
 import "../sass/about.scss";
 
 const About = () => {
@@ -12,11 +13,11 @@ const About = () => {
       <Bio />
       <div id="what-section">
         <Knowledge />
-        <div id="learn-section">
-          <Learning />
-          <Relearning />
-        </div>
+        <Learning />
+        <Relearning />
+        <Disclaimer />
       </div>
+
       <Sidebar orientation="left" page="home" />
       <Sidebar orientation="right" page="portfolio" />
     </div>

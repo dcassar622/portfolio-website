@@ -5,17 +5,18 @@ const Relearning = () => {
   return (
     <div id="relearning-container" className="slide-in">
       <section id="learning-section">
-        <h1>What I will Re-Learn</h1>
-        <p>
-          (for 3 years at university, I coded in Java every day... and even did
-          my thesis in it.)
-        </p>
+        <h1>
+          To Re-learn{" "}
+          <span className="explanation">
+            (cos I forgot most of it ... oops)
+          </span>
+        </h1>
         <br />
-        <p>
-          <ul>
-            <li>Java</li>
-          </ul>
-        </p>
+        <ul>
+          <li>
+            Java <sup>**</sup>
+          </li>
+        </ul>
       </section>
     </div>
   );

@@ -5,10 +5,17 @@
   align-items: $align;
 }
 
-@mixin text-frame {
-  border: 10px solid black;
+@mixin text-frame($color) {
+  border: 10px solid $color;
   border-radius: 20px;
   padding: 2rem;
   font-size: 1.1rem;
-  background: rgba(164, 182, 182, 0.514);
+  background: rgba(180, 164, 182, 0.514);
+}
+
+@mixin card-background($url) {
+  background: linear-gradient(rgb(204, 198, 198), rgba(156, 180, 180, 0.842)),
+    url($url);
+  background-size: cover;
+  background-position: center center;
 }

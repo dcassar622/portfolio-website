@@ -26,7 +26,7 @@ const Intro = () => {
           <span className="selected"> building </span> stuff &#x007D;{" "}
         </Link>{" "}
         with
-        <span className="selected"> code</span>!!
+        <span className="selected"> code</span>!! &#x2764;
       </h6>
     </div>
   );

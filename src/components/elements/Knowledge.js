@@ -5,7 +5,9 @@ const Knowledge = () => {
   return (
     <div id="knowledge-container" className="slide-in">
       <section id="knowledge-section">
-        <h1>What I Know =></h1>
+        <h1>
+          What I Know <sup>*</sup> =>
+        </h1>
         <br />
         <p>
           <ul id="knowledge-outer-list">
@@ -25,7 +27,6 @@ const Knowledge = () => {
             <li>noSQL DB (Firebase)</li>
             <li>Git / Github</li>
             <li>Webpack</li>
-            <li>Jest</li>
           </ul>
         </p>
       </section>
