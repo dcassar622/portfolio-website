@@ -1,9 +1,9 @@
 import React from "react";
-import "../sass/about.scss";
+import "../../sass/about.scss";
 
 const Disclaimer = () => {
   return (
-    <div id="disclaimer-container" className="slide-in">
+    <div id="disclaimer-container">
       <section id="disclaimer-section">
         <p className="explanation">
           <sup>*</sup> One of the things that I love most about web development

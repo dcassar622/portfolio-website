@@ -2,8 +2,7 @@
 
 .sidebar {
   position: fixed;
-
-  min-width: 100vh;
+  width: 100vh;
   height: 4rem;
   padding-top: 1rem;
   background: var(--sidebar-background);
@@ -27,4 +26,19 @@
   transform: rotate(90deg);
   right: 0;
   top: 100%;
+}
+
+/* ---------- MEDIA QUERIES ---------- */
+
+/* ---------- large phones ---------- */
+
+@media all and (max-width: 639px) {
+  .sidebar {
+    height: 2rem;
+    padding-top: 0;
+
+    h2 {
+      font-size: 1.3rem;
+    }
+  }
 }

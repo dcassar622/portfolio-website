@@ -1,9 +1,9 @@
 import React from "react";
-import "../sass/about.scss";
+import "../../sass/about.scss";
 
 const Relearning = () => {
   return (
-    <div id="relearning-container" className="slide-in">
+    <div id="relearning-container">
       <section id="learning-section">
         <h1>
           To Re-learn{" "}

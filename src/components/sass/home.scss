@@ -3,31 +3,29 @@
 /* ---------- HOME PAGE ---------- */
 
 #intro-container {
+  @include display-flex(column, space-evenly, flex-start);
   position: absolute;
   max-width: 100%;
-  height: 20rem;
-  margin-top: 5%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-left: 10rem;
+  height: 15rem;
+  margin-top: 10%;
+  margin-left: 8rem;
   justify-content: space-evenly;
   font-size: 3rem;
 }
 
 #pointer-container {
-  width: 45%;
+  @include display-flex(column, space-evenly, center);
+  width: 60%;
   padding: 2rem;
   position: relative;
-  top: calc(100vh / 2 + 4rem);
-  margin-left: 48%;
+  top: calc(100vh / 2 + 10rem);
+  margin-left: 30%;
   height: 15rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  font-size: 3rem;
-  @include text-frame(rgb(220, 211, 223));
+  @include text-frame(black);
+
+  h4 {
+    font-size: 1.3rem;
+  }
 
   a:hover {
     color: teal;
@@ -35,5 +33,40 @@
 }
 
 #tagline {
-  font-size: 1.35rem;
+  font-size: 1.2rem;
+}
+
+/* ---------- MEDIA QUERIES ---------- */
+
+/* ---------- tablets / small laptops ---------- */
+
+@media all and (max-width: 1023px) {
+  #intro-container {
+    margin-top: 7%;
+    margin-left: 6rem;
+    padding-right: 2rem;
+    font-size: 2rem;
+
+    p {
+      font-size: 1.2rem;
+    }
+  }
+
+  #pointer-container {
+    margin-left: 20%;
+  }
+}
+
+/* ---------- large phones ---------- */
+
+@media all and (max-width: 639px) {
+  #intro-container {
+    margin-top: 7%;
+    margin-left: 5rem;
+    padding-right: 3rem;
+  }
+
+  #pointer-container {
+    width: 60%;
+  }
 }

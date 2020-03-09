@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../sass/home.scss";
+import "../../sass/home.scss";
 
 const Pointer = () => {
   return (

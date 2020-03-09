@@ -1,0 +1,38 @@
+@import "./mixins.scss";
+
+/* ---------- CONTACT PAGE ---------- */
+
+#contact-page-container {
+  min-height: 100vh;
+  @include display-flex(row, center, center);
+}
+
+#contact-form-section {
+  width: 100%;
+  height: 500px;
+  flex-shrink: 0;
+}
+
+#contact-form {
+  @include display-flex(column, center, center);
+
+  input {
+    width: 50%;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  #textarea {
+    height: 50px;
+  }
+}
+
+#contact-btn {
+  font-size: 1.2rem;
+  padding: 10px;
+  border-radius: 10px;
+  background: teal;
+  color: white;
+}

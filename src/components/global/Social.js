@@ -1,7 +1,7 @@
 import React from "react";
-import "../sass/social.scss";
+import "../sass/nav.scss";
 import github_logo from "../../images/github-logo.png";
-import so_logo from "../../images/so-logo.png";
+import so_logo from "../../images/so-logo-black.gif";
 
 const Social = () => {
   return (

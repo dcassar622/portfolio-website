@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../sass/home.scss";
+import "../../sass/home.scss";
 
 const Intro = () => {
   return (
     <div id="intro-container" className="slide-in">
-      <h2>
+      <h3>
         Hi! I'm <span className="selected pulsate"> Daniel </span>
-      </h2>
+      </h3>
       <br></br>
       <h6>
         <span className="selected">Web</span> Developer /
@@ -18,7 +18,7 @@ const Intro = () => {
       </h6>
       <br></br>
       <br></br>
-      <h6 id="tagline">
+      <p id="tagline">
         ... and I LOVE{" "}
         <Link to="/portfolio">
           {" "}
@@ -27,7 +27,7 @@ const Intro = () => {
         </Link>{" "}
         with
         <span className="selected"> code</span>!! &#x2764;
-      </h6>
+      </p>
     </div>
   );
 };

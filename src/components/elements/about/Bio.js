@@ -1,10 +1,10 @@
 import React from "react";
-import "../sass/about.scss";
-import me from "../../../src/images/me.jpg";
+import "../../sass/about.scss";
+import me from "../../../../src/images/me.jpg";
 
 const Bio = () => {
   return (
-    <div id="bio-container" className="slide-in">
+    <div id="bio-container">
       <section id="bio-section">
         <h1>
           ( Who & <span className="selected"> Why </span>)
@@ -32,14 +32,15 @@ const Bio = () => {
           I've completely delved back into the wonderful world of creating
           something out of nothing (which is my favourite thing to do), using
           all those lovely 1's and 0's. Nowadays, I spend most of my time
-          coding, learning about something related to code, or scouring through
-          Stack Overflow trying to figure out why the console's giving me a bit
-          of attitude. And to be honest, I wouldn't have it any other way...
+          coding, working on professional and personal web-dev projects, or
+          scouring through Stack Overflow trying to figure out why the console's
+          giving me a bit of attitude. And to be honest, I wouldn't have it any
+          other way...
         </p>
         <div id="image-section">
           <p>
-            PS : I'd like to think that my code looks way better than that
-            wallpaper behind me! &#x1F610;
+            PS : --- I'd like to think that my code looks way better than the
+            wallpaper behind me! --- &#x1F610;
           </p>
           <img src={me} alt="profile" />
         </div>
