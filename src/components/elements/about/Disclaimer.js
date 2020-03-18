@@ -22,8 +22,8 @@ const Disclaimer = () => {
           day (my final year thesis was a neural network built in Java). Sadly,
           it's true that if you don't use it, you lose it, so my Java skills are
           currently abysmally rusty. However, my hope is that it's (as they say)
-          like riding a bike, and when I pick it back up it will start coming
-          back to me without picking up too many cuts and bruises along the way
+          like riding a bike, and that it will start coming back to me without
+          picking up too many cuts and bruises along the way
         </p>
       </section>
     </div>

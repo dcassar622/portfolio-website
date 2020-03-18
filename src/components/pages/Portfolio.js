@@ -9,8 +9,12 @@ const Portfolio = () => {
 
   return (
     <div id="portfolio-page-container" className="page-container">
-      <h1>Portfolio &#x1F4D6;</h1>
-
+      <h1>
+        Portfolio{" "}
+        <span role="img" aria-label="book">
+          &#x1F4D6;
+        </span>
+      </h1>
       <section id="portfolio-section">
         {portfolioProjects.map(project => {
           return <Card project={project} />;

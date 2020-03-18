@@ -1,3 +1,5 @@
+/* ---------- MIXINS ---------- */
+
 @mixin display-flex($direction, $justify, $align) {
   display: flex;
   flex-direction: $direction;

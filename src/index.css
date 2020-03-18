@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css?family=Anonymous+Pro&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* ---------- GLOBAL VARIABLES ---------- */
+  --sidebar-background: rgba(90, 81, 81, 0.301);
+}
+
+.App {
+  background-image: url("./images/background-main-small.gif");
+  background-size: cover;
+  background-position: center center;
+}
+
+body {
+  margin: 0;
+  font-family: "Anonymous Pro", monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+/* ---------- ANIMATIONS ---------- */
+.slide-in {
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-name: slidein;
+          animation-name: slidein;
+}
+
+@-webkit-keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 10%;
+    width: 100%;
+  }
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 10%;
+    width: 100%;
+  }
+}
+
+.pulsate {
+  -webkit-animation: pulsate 3s ease-out;
+          animation: pulsate 3s ease-out;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes pulsate {
+  0% {
+    color: teal;
+    -webkit-transform: scale(2);
+            transform: scale(2);
+  }
+  50% {
+    color: #855757;
+    -webkit-transform: scale(4);
+            transform: scale(4);
+  }
+  100% {
+    color: teal;
+    -webkit-transform: scale(2);
+            transform: scale(2);
+  }
+}
+
+@keyframes pulsate {
+  0% {
+    color: teal;
+    -webkit-transform: scale(2);
+            transform: scale(2);
+  }
+  50% {
+    color: #855757;
+    -webkit-transform: scale(4);
+            transform: scale(4);
+  }
+  100% {
+    color: teal;
+    -webkit-transform: scale(2);
+            transform: scale(2);
+  }
+}
+
+/* ---------- GENERAL ---------- */
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.selected {
+  color: teal;
+}
+
+.underline {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=index.css.map */

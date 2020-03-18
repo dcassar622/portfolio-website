@@ -12,13 +12,16 @@ const Card = ({ project }) => {
         <div className="card-back">
           <p className="card-description">{project.description}</p>
           <div className="card-links">
-            <h4>Live App</h4>
-            <a href={project.appLink}></a>
-            <a href={project.codeLink}>
+            <a href={project.linkApp} target="_blank" rel="noopener noreferrer">
+              <h4>Live App</h4>
+            </a>
+            <a
+              href={project.linkCode}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <h4>Code</h4>
             </a>
-            <h4>Project Case-Study</h4>
-            <a href={project.caseStudyLink}></a>
           </div>
         </div>
       </div>

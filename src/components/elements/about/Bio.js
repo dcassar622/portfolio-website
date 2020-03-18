@@ -39,8 +39,11 @@ const Bio = () => {
         </p>
         <div id="image-section">
           <p>
-            PS : --- I'd like to think that my code looks way better than the
-            wallpaper behind me! --- &#x1F610;
+            PS : --- I'd like to think that my code looks way better than that
+            wallpaper! ---{" "}
+            <span role="img" aria-label="emoji">
+              &#x1F610;
+            </span>
           </p>
           <img src={me} alt="profile" />
         </div>

@@ -14,11 +14,11 @@
 }
 
 #pointer-container {
+  position: relative;
   @include display-flex(column, space-evenly, center);
   width: 60%;
   padding: 2rem;
-  position: relative;
-  top: calc(100vh / 2 + 10rem);
+  top: calc(100vh / 2 + 12rem);
   margin-left: 30%;
   height: 15rem;
   @include text-frame(black);
@@ -61,12 +61,21 @@
 
 @media all and (max-width: 639px) {
   #intro-container {
-    margin-top: 7%;
+    margin-top: 20%;
     margin-left: 5rem;
     padding-right: 3rem;
   }
 
   #pointer-container {
-    width: 60%;
+    top: calc(100vh / 2 + 8rem);
+    width: 70%;
+    margin-left: 15%;
+    padding: 1rem;
+    height: 20rem;
+    text-align: center;
+
+    h4 {
+      font-size: 1.2rem;
+    }
   }
 }

@@ -10,7 +10,7 @@ const Nav = () => {
       <div id="nav-bar">
         <a href="/">
           <div id="logo-container">
-            <img src={logo} id="logo" />
+            <img src={logo} id="logo" alt="logo" />
           </div>
         </a>
         <div id="nav-right">

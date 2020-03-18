@@ -1,5 +1,20 @@
 const portfolioProjects = [
   {
+    title: "Count Of Monte Crypto",
+    subtitle: " A Cryptocurrency portfolio, market data and news application",
+    description: `Count Of Monte Crypto lets users
+              create a personal cryptocurrency assets portfolio, keeping track of any purhcases made, and viweing the price
+              charts for each asset. It also displays some general market data
+              such as daily market cap and volume. The application is based on
+              (and uses data from) the CryptoCompare API. Built using
+              Vanilla Javascript, HTML, CSS
+              Materialize CSS for the form and
+              chart popups. Also using Chart.JS and AutoComplete.JS libraries`,
+    linkApp: "https://count-of-monte-crypto.firebaseapp.com/",
+    linkCode: "https://github.com/dcassar622/count-of-monte-crypto-JS.git",
+    id: "count-of-monte-crypto-card"
+  },
+  {
     title: "GCHSS Marketing Department Website",
     subtitle: "A resource website for the Marketing Department at GCHSS",
     description: `This is a bespoke resource and news website that I built for the
@@ -10,22 +25,7 @@ const portfolioProjects = [
     linkCaseStudy: "",
     id: "gchss-card"
   },
-  {
-    title: "Count Of Monte Crypto",
-    subtitle: " A Cryptocurrency portfolio, market data and news application",
-    description: `Count Of Monte Crypto lets users
-              create a personal cryptocurrency assets portfolio, keeping track of any purhcases made, and viweing the price
-              charts for each asset. It also displays some general market data
-              such as daily market cap and volume. The application is based on
-              (and uses data from) the CryptoCompare API. Built using
-              Vanilla Javascript, HTML, CSS
-              Materialize CSS for the form and
-              chart popups`,
-    linkApp: "",
-    linkCode: "https://github.com/dcassar622/count-of-monte-crypto-JS.git",
-    linkCaseStudy: "",
-    id: "count-of-monte-crypto-card"
-  },
+
   {
     title: "Song Science",
     subtitle: " A Musical Analysis application",
@@ -34,11 +34,10 @@ const portfolioProjects = [
               features for any song that can be found in Spotify. Built using
               Vanilla Javascript, HTML, CSS &
               a bit of Materialize CSS for the
-              search form popup
+              search form popup. Also makes use of the Chart.JS library
 `,
-    linkApp: "",
+    linkApp: `Video Demonstration : `,
     linkCode: "https://github.com/dcassar622/song-science.git",
-    linkCaseStudy: "",
     id: "song-science-card"
   },
   {
@@ -50,7 +49,6 @@ const portfolioProjects = [
 `,
     linkApp: "",
     linkCode: "https://github.com/dcassar622/song-science.git",
-    linkCaseStudy: "",
     id: "portfolio-website-card"
   }
 ];

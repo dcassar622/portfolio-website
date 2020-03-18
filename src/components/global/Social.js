@@ -6,12 +6,17 @@ import so_logo from "../../images/so-logo-black.gif";
 const Social = () => {
   return (
     <div id="social-container">
-      <a href="https://github.com/dcassar622" target="_blank">
+      <a
+        href="https://github.com/dcassar622"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <img src={github_logo} alt="Github Logo"></img>{" "}
       </a>
       <a
         href="https://stackoverflow.com/users/12814731/daniel-cassar"
         target="_blank"
+        rel="noopener noreferrer"
       >
         <img src={so_logo} alt="Stack-Overflow Logo"></img>
       </a>

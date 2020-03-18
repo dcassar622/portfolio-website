@@ -14,7 +14,7 @@ const Intro = () => {
       </h6>
 
       <h6>
-        <span className="selected">Earthly</span> Human
+        <span className="selected">Other</span> Stuff
       </h6>
       <br></br>
       <br></br>
